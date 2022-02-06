@@ -9,7 +9,7 @@ public class Dodo : MonoBehaviour
     [SerializeField] float jumpSpeed = 5;
     Animator myAnimator;
     Rigidbody2D myRigiBody2d;
-
+    AudioPlayer audioPlayer;
     Paddle paddle;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,7 @@ public class Dodo : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         //   myRigiBody2d.velocity = new Vector2(xPush, yPush);
         paddle = FindObjectOfType<Paddle>();
+        audioPlayer = FindObjectOfType<AudioPlayer>();
     }
 
     // Update is called once per frame
@@ -34,8 +35,8 @@ public class Dodo : MonoBehaviour
         }
         if (value.isPressed)
         {
-            //     audioPlayer.PlayJumpingClip();
             myRigiBody2d.velocity += new Vector2(0f, jumpSpeed);
+            audioPlayer.PlayJumpingClip();
         }
     }
 

@@ -264,8 +264,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "BLOCK\n PUZZLE \nBREAKER"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
+  m_sharedMaterial: {fileID: 5204153093083628154, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -478,7 +478,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.06
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -586,8 +586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578a7e87fd438a34c9b9282848b5dd59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpingClip: {fileID: 0}
-  JumpingVolume: 1
+  JumpingClip: {fileID: 8300000, guid: 7449893826c35d449848b161daa693f8, type: 3}
+  JumpingVolume: 0.382
   HittedClip: {fileID: 0}
   HittedVolume: 1
   ExplosionClip: {fileID: 0}
@@ -673,7 +673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -282, y: 228}
+  m_AnchoredPosition: {x: -259, y: 228}
   m_SizeDelta: {x: 200, y: 242.59998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732946739
@@ -696,10 +696,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Left Right
+  m_text: Left/Right
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
+  m_sharedMaterial: {fileID: 5204153093083628154, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -830,10 +830,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dodo jump, paddler disappear
+  m_text: Dodo jump==Something disappear
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
+  m_sharedMaterial: {fileID: 5204153093083628154, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1049,7 +1049,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.990566, g: 0.9808546, b: 0.41585082, a: 1}
+    m_NormalColor: {r: 0.40000004, g: 0.4039216, b: 0.67058825, a: 1}
     m_HighlightedColor: {r: 1, g: 0.74655265, b: 0, a: 1}
     m_PressedColor: {r: 0.745283, g: 0.45259535, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 0.74655265, b: 0, a: 1}
@@ -1345,8 +1345,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit :'(
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
+  m_sharedMaterial: {fileID: 5204153093083628154, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1562,8 +1562,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play :)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
+  m_sharedMaterial: {fileID: 5204153093083628154, guid: 66fc951d3a8e0744980660a876b7f07a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1819,7 +1819,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088807306}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -730.72, y: -546.79, z: 0}
+  m_LocalPosition: {x: -730.3, y: -546.2, z: 0}
   m_LocalScale: {x: 2.1719458, y: 2.1719458, z: 2.1719458}
   m_Children: []
   m_Father: {fileID: 578093166}
@@ -1936,8 +1936,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.8962264, g: 0.4181567, b: 0.28324133, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.74655265, b: 0, a: 1}
+    m_NormalColor: {r: 0.52156866, g: 0.6313726, b: 0.6745098, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.76072884, b: 0.06132078, a: 1}
     m_PressedColor: {r: 0.745283, g: 0.45259535, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 0.74655265, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
