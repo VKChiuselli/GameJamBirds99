@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Levels/Start Menu.unity
+    guid: 334fe9b7d8ce323478db0a689556c988
+  - enabled: 1
     path: Assets/Scenes/Levels/Level1.unity
     guid: 5aab9192c23caee4bb131a53267f1dfb
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level5UpsideStoca.unity
     guid: 3a5b584dcf2f08b4f849020c96722b7a
-  - enabled: 1
-    path: Assets/Scenes/Levels/Start Menu.unity
-    guid: 334fe9b7d8ce323478db0a689556c988
   - enabled: 1
     path: Assets/Scenes/Levels/GameOVerWIn.unity
     guid: 30106868e4f8c69468a399eadb7d7cc2
